@@ -74,5 +74,5 @@ project-folder/
 ---
 
 ## 👨‍💻 Author
-**Your Name**  
+**Ejidike Simon**  
 *Feel free to fork and improve this project!*
