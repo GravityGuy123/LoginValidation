@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="login-form" action="http: //localhost:5209/" method="post">
+        <h2 id="create-text">LOGIN</h2>
+        <div class="form-group">
+            <label for="emailorphone">Email or Phone Number</label>
+            <input type="text" name="emailorphone" value="mike@example.com" id="emailorphone" title="emailorphone" placeholder="Enter your Email or Phone Number" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="password-1">Password</label>
+            <input type="password" name="password" id="password-1" title="password" placeholder="Enter your Password" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password-2">Re-enter Password</label>
+            <input type="password" name="password" id="password-2" title="password" placeholder="Re-enter your Password" required>
+        </div>
+        <button id="create-button" type="submit">Create</button>
+        </p>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
